@@ -88,4 +88,3 @@ $('.dropdown-menu a').click(function () {
     $('.dropdown-menu a').removeClass('active');
     $(this).addClass('active');
 });
-

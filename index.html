@@ -4,14 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Online Editor | Creative Webmaster</title>
 	<link rel="shortcut icon" type="image/x-icon" href="http://natanfelles.github.io/assets/uploads/favicon.png"/>
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/styles.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/styles.min.css">
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
@@ -21,10 +20,7 @@
 			</button>
 			<a class="navbar-brand" href="">Online Editor</a>
 		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+		<div class="collapse navbar-collapse">
 			<div class="navbar-form navbar-left">
 				<div class="btn-group">
 					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -249,7 +245,6 @@
 					</ul>
 				</div>
 			</div>
-
 			<div class="navbar-form navbar-left">
 				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#load"><i class="fa fa-upload"></i> Load File</button>
 			</div>
@@ -261,7 +256,6 @@
 				<a href="shortcuts.html" target="_blank" class="btn btn-default"><i class="fa fa-keyboard-o"></i> Keyboard Shortcuts
 				</a>
 			</div>
-
 			<div class="navbar-form navbar-right">
 				<button type="submit" class="btn btn-default" data-toggle="modal" data-target="#about"><i class="fa fa-info-circle"> </i> About
 				</button>
@@ -270,8 +264,6 @@
 	</div>
 </nav>
 <div id="editor" name="text"></div>
-<!-- Modals -->
-<!-- Load File -->
 <div class="modal fade" id="load" tabindex="-1" role="dialog" aria-labelledby="saveAsLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -289,7 +281,6 @@
 		</div>
 	</div>
 </div>
-<!-- Save As -->
 <div class="modal fade" id="saveAs" tabindex="-1" role="dialog" aria-labelledby="saveAsLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -307,7 +298,6 @@
 		</div>
 	</div>
 </div>
-<!-- About -->
 <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="saveAsLabel">
 	<div class="modal-dialog  modal-md" role="document">
 		<div class="modal-content">
@@ -315,11 +305,10 @@
 				<div class="container-fluid">
 					<div class="col-md-12 text-center">
 						<a href="http://natanfelles.github.io" target="_blank">
-							<img src="assets/logo.png" alt="Natan Felles" width="300px">
+							<img src="assets/logo.png" alt="Natan Felles" width="300">
 						</a>
 					</div>
 					<div class="col-md-12" style="margin-top: 20px">
-
 						<table class="table table-hover table-bordered text-center">
 							<thead>
 							<tr>
@@ -370,18 +359,15 @@
 							<a href="http://natanfelles.github.io/feed" target="_blank" class="fa fa-feed"></a>
 						</p>
 					</div>
-
-
 				</div>
-
 			</div>
 		</div>
 	</div>
 </div>
-<script src="assets/jquery/jquery-1.12.3.js"></script>
-<script src="assets/bootstrap/js/bootstrap.js"></script>
-<script src="assets/ace/src/ace.js"></script>
-<script src="assets/ace/src/ext-language_tools.js"></script>
-<script src="assets/scripts.js"></script>
+<script src="assets/jquery/jquery-1.12.3.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/ace/src-min/ace.js"></script>
+<script src="assets/ace/src-min/ext-language_tools.js"></script>
+<script src="assets/scripts.min.js"></script>
 </body>
 </html>
